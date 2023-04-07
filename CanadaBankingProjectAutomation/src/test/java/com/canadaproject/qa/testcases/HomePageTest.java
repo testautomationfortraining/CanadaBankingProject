@@ -12,6 +12,8 @@ import com.canadaproject.qa.pages.LoginPage;
 
 public class HomePageTest extends TestBase {
 	
+	//This line is pushed to github
+	
 	LoginPage loginPage;
 	HomePage homePage;
 	DeleteCustomerPage deleteCustomerPage;

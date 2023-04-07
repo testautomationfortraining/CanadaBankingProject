@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru99 Banking Project]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Guru99 Banking Scripts(failed)">
+    <classes>
+      <class name="com.canadaproject.qa.testcases.DeleteCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="deleteCustomer"/>
+          <include name="tearDown"/>
+          <include name="validateDeleteCustomerPageTitle"/>
+        </methods>
+      </class> <!-- com.canadaproject.qa.testcases.DeleteCustomerTest -->
+    </classes>
+  </test> <!-- Guru99 Banking Scripts(failed) -->
+</suite> <!-- Failed suite [Guru99 Banking Project] -->
